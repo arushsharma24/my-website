@@ -5,16 +5,6 @@
 .section{
     height: 100vh;
 }
-@media all and (min-width: 1px) and (max-width : 768px){
-    .desc{
-        width: 80vw;
-    }
-}
-@media all and (max-height: 600px){
-.section{
-    height: 700px;
-}
-}
 .container-fluid{
     padding:0;
 }
@@ -40,26 +30,26 @@ h3{
 }
 #sec-work{
     position: relative;
-    background-image: url('images/858597.jpg');
+    background-image: url('images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
     background-image: cover;
     background-color: #cccccc;
 }
 #sec-hobbies{
     position: relative;
     background-color: #323399;
-    background-image: url('images/411820.jpg');
+    background-image: url('images/imani-bahati-4_QbgDuj8z4-unsplash.jpg');
     background-image: cover;
 }
 #sec-fun{
     position: relative;
     background-color: #555555;
-    background-image: url('images/587323.jpg');
+    background-image: url('images/fulvio-ambrosanio-a4LSMM_-xJg-unsplash.jpg');
     background-image: cover;
 }
 #sec-contact{
     background-color: #aecfdf;
     text-align: center;
-    background-image: url('images/491050.jpg');
+    background-image: url('images/melinda-gimpel-5Ne6mMQtIdo-unsplash.jpg');
     background-image: cover;
 }
 #sec-head{
@@ -127,3 +117,8 @@ h3{
         width: 90vw;
     }
 }
+@media all and (max-height: 600px){
+    .section{
+        height: 700px;
+    }
+    }
