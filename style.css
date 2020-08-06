@@ -5,8 +5,10 @@
 .section{
     height: 100vh;
 }
-@media all and (max-width : 320px){
-    
+@media all and (min-width: 1px) and (max-width : 768px){
+    .desc{
+        width: 80vw;
+    }
 }
 @media all and (max-height: 600px){
 .section{
@@ -119,4 +121,9 @@ h3{
 .links div{
     margin-top: 2em;
     margin-bottom: 2em;
+}
+@media all and (min-width: 1px) and (max-width : 768px){
+    .desc{
+        width: 90vw;
+    }
 }
