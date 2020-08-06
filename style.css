@@ -5,6 +5,14 @@
 .section{
     height: 100vh;
 }
+@media all and (max-width : 320px){
+    
+}
+@media all and (max-height: 600px){
+.section{
+    height: 700px;
+}
+}
 .container-fluid{
     padding:0;
 }
@@ -37,13 +45,13 @@ h3{
 #sec-hobbies{
     position: relative;
     background-color: #323399;
-    background-image: url('images/1053123.jpg');
+    background-image: url('images/411820.jpg');
     background-image: cover;
 }
 #sec-fun{
     position: relative;
     background-color: #555555;
-    background-image: url('images/851850.png');
+    background-image: url('images/587323.jpg');
     background-image: cover;
 }
 #sec-contact{
