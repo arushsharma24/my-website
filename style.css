@@ -30,44 +30,40 @@ h3{
 }
 #sec-work{
     position: relative;
-    background-image: url('images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
-    background-image: cover;
     background-color: #cccccc;
+    background-image: url('images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg');
 }
 #sec-hobbies{
     position: relative;
     background-color: #323399;
     background-image: url('images/imani-bahati-4_QbgDuj8z4-unsplash.jpg');
-    background-image: cover;
 }
 #sec-fun{
     position: relative;
     background-color: #555555;
     background-image: url('images/fulvio-ambrosanio-a4LSMM_-xJg-unsplash.jpg');
-    background-image: cover;
 }
 #sec-contact{
-    background-color: #aecfdf;
     text-align: center;
+    background-color: #aecfdf;
     background-image: url('images/melinda-gimpel-5Ne6mMQtIdo-unsplash.jpg');
-    background-image: cover;
 }
 #sec-head{
-    background-image: url('images/238870.jpg');
-    background-image: cover;
     background-position: center;
+    background-image: url('images/238870.jpg');
     margin-bottom: 0;
     text-align: center;
 }
 #sec-contact, #sec-fun, #sec-head, #sec-hobbies, #sec-work{
     background-position: center;
     background-image: cover;
+    background-size: cover;
 }
 .form-container{
     padding: 6vh;
     display: inline-block;
     text-align:center;
-    background-color: #4e91dd
+    background-color: rgba(23, 63, 109, 0.5);
 }
 .desc{
     font-size: 1rem;
