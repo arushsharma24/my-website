@@ -73,15 +73,15 @@ h3{
     position: absolute;
     right: 5vw;
 }
-#item1{
+#item1a, #item1b, #item1c{
     background-color: #aecfda;
     height: 100%;
 }
-#item2{
+#item2a, #item2b, #item2c{
     background-color: #438297;
     height: 100%;
 }
-#item3{
+#item3a, #item3b, #item3c{
     background-color: #0e4253;
     height: 100%;
 }
